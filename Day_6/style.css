@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#parent{
+    width: 90vw;
+    height: 350px;
+    border: 2px solid red;
+
+}
+.child{
+    border: 2px solid blue;
+    height: 20px;
+    width: 40px;
+    
+}
+
+#parent{
+    display: flex;
+    flex-direction: column;
+}
