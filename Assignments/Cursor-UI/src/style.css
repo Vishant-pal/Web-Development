@@ -1,0 +1,162 @@
+:root{
+  --font-family: "Cursor Gothic", "Inter", system-ui, sans-serif;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #212121;
+}
+
+main nav{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.logo img{
+  height: 25px;
+  margin-right: 20px;
+}
+.menu-buttons ul{
+list-style: none;
+display: flex;
+gap: 60px;
+font-size: .9rem;
+color: white;
+font-family: var(--font-family);
+font: 300;
+}
+
+.nav-btn{
+  /* gap: 10px;
+  margin-bottom: 20px; */
+}
+
+.sign-in-button{
+  padding: 8px;
+  margin: 0px 20px 0px 0px;
+  border-radius: 20px;
+  border: 1px solid white;
+  background-color: #212121;
+  color: white;
+  width: 100px;
+  font-size: 16px;
+}
+.sign-in-button:hover{
+  padding: 8px;
+  margin: 0px 20px 0px 0px;
+  border-radius: 20px;
+  background-color: #1a1919;
+  color: rgb(197, 193, 193);
+  width: 100px;
+  font-size: 16px;
+}
+
+.download-button{
+  padding: 8px;
+  border-radius: 20px;
+  background-color: white;
+  border: none;
+  color: #1a1919;
+  width: 100px;
+  font-size: 16px;
+}
+
+.download-button:hover{
+  padding: 8px;
+  border-radius: 20px;
+  border: none;
+  width: 100px;
+  font-size: 16px;
+  background-color: rgb(225, 222, 222);
+}
+
+.main-heading{
+  width: 80%;
+  margin: 6px auto;
+  margin-top: 90px;
+}
+
+.main-heading p{
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.download-button-2{
+  width: 200px;
+  height:35px;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  margin: 20px 0px 0px 0px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.download-button-2:hover{
+  width: 200px;
+  height:35px;
+  color: black;
+  background-color: rgb(219, 216, 216);
+  border: none;
+  border-radius: 20px;
+  margin: 20px 0px 0px 0px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.bc-image{
+  width: 80%;
+  margin: 6px auto;
+  margin-top: 90px;
+  position: relative;
+}
+
+.bc-image img{
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.bc-image-container{
+  border: 2px solid red;
+  position: absolute;
+  /* top: 60px; */
+  left: 60px;
+  bottom: 50px;
+  height: 700px;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 10px);
+  background-color: #1a1919;
+  align-items: center;
+}
+
+.three-dots ul{
+  display: flex;
+  color: #5c5a5a;
+  z-index: 1;
+  list-style: none;
+  gap: 5px;
+  margin: 6px;
+}
+
+.three-dots ul li{
+  border-radius: 100%;
+  width: 14px;
+  height: 14px;
+  margin-top: 2px;
+  background-color: #7f7878;
+}
+
+.three-dots-mid{
+  color: gray;
+}
